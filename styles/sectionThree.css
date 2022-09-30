@@ -7,38 +7,45 @@
 
 .section-three-title {
     text-transform: uppercase;
-    color: red;
-    font-size: 15px;
+    color: #e30513;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .card-section {
     background-color: #8f8f91;
     color: white;
-    height: 300px;
+    min-height: 300px;
     text-align: left;
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-bottom: 20px;
-    margin-top: 20px;
-    line-height: 30px;
+    margin-top: 28px;
+    line-height: 48px;
 }
 
 .card-section h3 {
-    font-size: 25px;
-    width: 300px;
-    line-height: 35px;
+    font-size: 35px;
+    line-height: 48px;
 }
 
 .card-section a, .section-view a {
     text-decoration: underline !important;
     cursor: pointer;
+    font-size: 21px;
 }
 
 .section-view a {
     margin: 20px;
-    color: #111;
+    color: #3b2143;
+    line-height: 48px;
 }
 
-
+@media screen and (max-width: 768px) {
+    .card-section {
+        margin: 20px;
+    }
+}

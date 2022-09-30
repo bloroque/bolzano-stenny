@@ -1,23 +1,4 @@
-// Footer
-const FooterComponent = () => {
-    return (
-            <div class="footer">
-                <div class="footer-icon">
-                    <img src="./assets/images/linkedin.png" alt="linkedin" />
-                    <img src="./assets/images/twitter.png" alt="twitter" />
-                    <img src="./assets/images/facebook.png" alt="facebook"/>
-                </div>
-
-                <div class="footer-right">
-                    &copy; Proximity Worldwide 2018. All Rights Reserved. <u>Privacy statement</u>
-                </div>
-            </div>
-    )
-}
-
-ReactDOM.render(<FooterComponent />, document.querySelector('#footer'));
-
-// Section one
+// ***** Section one ***** 
 const SectionOneComponent = () => {
     return (
         <div class="section-one">
@@ -29,7 +10,8 @@ const SectionOneComponent = () => {
 
 ReactDOM.render(<SectionOneComponent />, document.querySelector('#sectionOne'));
 
-// Section two
+
+//  ***** Section two ***** 
 const SectionTwoComponent = () => {
     return (
         <div class="section-two">
@@ -49,16 +31,8 @@ const SectionTwoComponent = () => {
 
 ReactDOM.render(<SectionTwoComponent />, document.querySelector('#sectionTwo'));
 
-const Card = ({ text, link }) => {
-    return (
-        <div>
-            <h3>{{text}}</h3>
-            <a href={link}>Find out here</a>
-        </div>
-    )
-}
 
-// Section three
+//  ***** Section three ***** 
 const SectionThreeComponent = () => {
     return (
         <div class="section-three">
@@ -89,3 +63,29 @@ const SectionThreeComponent = () => {
 }
 
 ReactDOM.render(<SectionThreeComponent />, document.querySelector('#sectionThree'));
+
+
+//  ***** Footer ***** 
+const FooterComponent = () => {
+    return (
+        <div class="contain-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer">
+                        <div class="footer-icon">
+                            <img src="./assets/images/linkedin.png" alt="linkedin" />
+                            <img src="./assets/images/twitter.png" alt="twitter" />
+                            <img src="./assets/images/facebook.png" alt="facebook"/>
+                        </div>
+
+                        <div class="footer-right">
+                            &copy; Proximity Worldwide 2018. All Rights Reserved. <u>Privacy statement</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+ReactDOM.render(<FooterComponent />, document.querySelector('#footer'));
