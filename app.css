@@ -31,7 +31,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Avenir Black', 'Avenir Book', 'Avenir Medium', sans-serif;
+  font-family: 'Avenir Book', 'Avenir Medium', 'Avenir Black' sans-serif;
   font-size: 62.5%;
   font-size: 10px;
 }
