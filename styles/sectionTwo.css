@@ -1,62 +1,70 @@
 .section-two {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .section-two .bg-img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .section-two div {
-    background: #fff;
-    position: absolute;
-    font-size: 35px;
-    width: 90% !important;
-    text-align: center;
-    color: #3b2143;
-    line-height: 48px;
-    padding: 30px;
-    bottom: 100px;
+  background: #fff;
+  position: absolute;
+  font-size: 35px;
+  width: 90% !important;
+  text-align: center;
+  color: var(--black);
+  line-height: 48px;
+  padding: 30px;
+  bottom: 100px;
 }
 
 .section-two .pencil {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-    margin-top: 140px;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+  margin-top: 140px;
 }
 
 @-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 @keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 @media screen and (min-width: 1900px) {
-    .section-two div {
-        width: 800px;
-    }
+  .section-two div {
+    width: 800px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .section-two div {
-        font-size: 20px;
-    }
+  .section-two div {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .section-two div {
-        line-height: 25px;
-        padding: 20px;
-        font-size: 15px;
-        width: 70%;
-    }
+  .section-two div {
+    line-height: 25px;
+    padding: 20px;
+    font-size: 15px;
+    width: 70%;
+  }
 }

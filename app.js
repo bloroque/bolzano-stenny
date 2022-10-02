@@ -21,7 +21,7 @@ const SectionTwoComponent = () => {
         brands. Supported by our proprietary{' '}
         <u>Creative Intelligence process</u>,<u>unique tools</u> and{' '}
         <u>global partners</u>, we are able to put data at the heart of
-        everything we do to orchestrate experiences that deliver cerativiy with
+        everything we do to orchestrate experiences that deliver creativity with
         precision and purpose.
       </div>
       <img class="pencil" src="./assets/images/pencil.png" alt="pencil" />

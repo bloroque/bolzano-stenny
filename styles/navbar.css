@@ -83,7 +83,7 @@
   text-decoration: none;
   color: #fff;
   line-height: 65px;
-  font-size: 21px;
+  font-size: var(--normal-size);
 }
 
 .nav div.main_list ul li a:hover {

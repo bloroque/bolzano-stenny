@@ -4,6 +4,13 @@
 @import url('./styles/sectionThree.css');
 @import url('./styles/footer.css');
 
+:root {
+  --red: #e30513;
+  --black: #3b2143;
+  --grey: #8f8f91;
+  --normal-size: 21px;
+}
+
 @font-face {
   font-family: 'Avenir Black';
   src: url('./assets/fonts/Avenir-Black.ttf');

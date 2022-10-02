@@ -1,51 +1,52 @@
 .section-three {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-three-title {
-    text-transform: uppercase;
-    color: #e30513;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
+  text-transform: uppercase;
+  color: var(--red);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .card-section {
-    background-color: #8f8f91;
-    color: white;
-    min-height: 300px;
-    text-align: left;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-    margin-top: 28px;
-    line-height: 48px;
+  background-color: var(--grey);
+  color: white;
+  min-height: 300px;
+  text-align: left;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-top: 28px;
+  line-height: 48px;
 }
 
 .card-section h3 {
-    font-size: 35px;
-    line-height: 48px;
+  font-size: 35px;
+  line-height: 48px;
 }
 
-.card-section a, .section-view a {
-    text-decoration: underline !important;
-    cursor: pointer;
-    font-size: 21px;
+.card-section a,
+.section-view a {
+  text-decoration: underline !important;
+  cursor: pointer;
+  font-size: var(--normal-size);
 }
 
 .section-view a {
-    margin: 20px;
-    color: #3b2143;
-    line-height: 48px;
+  margin: 20px;
+  color: var(--black);
+  line-height: 48px;
 }
 
 @media screen and (max-width: 768px) {
-    .card-section {
-        margin: 20px;
-    }
+  .card-section {
+    margin: 20px;
+  }
 }

@@ -1,33 +1,33 @@
 .section-one {
-    text-align: center;
-    margin: 50px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  text-align: center;
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .section-one div:first-child {
-    text-transform: uppercase;
-    color: #e30513;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 48px;
+  text-transform: uppercase;
+  color: var(--red);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 48px;
 }
 
 .section-one div:last-child {
-    color: purple;
-    font-size: 48px;
-    width: 60%;
-    line-height: 61px;
+  color: var(--black);
+  font-size: 48px;
+  width: 60%;
+  line-height: 61px;
 }
 
 @media screen and (max-width: 768px) {
-    .section-one div:last-child {
-        width: auto;
-        margin: 0px 30px;
-        font-size: 30px;
-        line-height: 48px;
-    }
+  .section-one div:last-child {
+    width: auto;
+    margin: 0px 30px;
+    font-size: 30px;
+    line-height: 48px;
+  }
 }
